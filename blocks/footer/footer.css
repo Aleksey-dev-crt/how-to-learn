@@ -1,0 +1,8 @@
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+  /* Я учел что у меня box-sizing: contnent-box, поэтому min-height для footer__column задал 250
+     суммарная высота блока footer у меня была равна 350px */
+  box-sizing: border-box;
+  min-height: 350px;
+}
