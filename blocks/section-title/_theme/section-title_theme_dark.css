@@ -1,6 +1,4 @@
 .section-title_theme_dark {
-  /* Пришлось задать position: relative иначе треугольник перекрывает заголовки,
-     какой бы z-index я не задавал( */
   position: relative;
   color: #fff;
   z-index: 1;
